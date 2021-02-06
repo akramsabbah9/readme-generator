@@ -20,9 +20,12 @@ const renderLicenseLink = license => {};
 
 // return the license section of README. If there is no license, return empty string
 const renderLicenseSection = (license) => {
-    if (license === "None") return ""
-    else return `## License
+    if (license === "None") return "";
+    return `
+## License
+
 This project is licensed under the ${license} License — see ${renderLicenseLink} for details.
+
 `;
 };
 
@@ -30,12 +33,19 @@ This project is licensed under the ${license} License — see ${renderLicenseLin
 const generateMarkdown = data => {
     return `# ${data.title}
 ${renderLicenseBadge(data.license)}
+
 ## Description
 
 ${data.description}
 
 
 ## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)${(data.license === "None") ? "" : "\n* [License](#license)"}
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
 
 ## Installation
@@ -47,10 +57,7 @@ ${data.installation}
 
 ${data.usage}
 
-
 ${renderLicenseSection(data.license)}
-
-
 ## Contributing
 
 ${data.contributing}

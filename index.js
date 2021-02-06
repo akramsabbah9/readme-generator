@@ -7,7 +7,7 @@ const generateMarkdown = require("./utils/generateMarkdown.js");
 // array of questions for user input
 const testData = {title: "Test", description: "A test README for this program.", 
 installation: "Install using ```npm install```. Go nuts!", usage: "I don't know. It's a test application.",
-license: "GPL 3.0", contributing: "", tests: "none", username: "akramsabbah9", email: "testemail@test.com"
+license: "None", contributing: "Don't contribute to this project.", tests: "none", username: "akramsabbah9", email: "testemail@test.com"
 };
 
 const questions = [
