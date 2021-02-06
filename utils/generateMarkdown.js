@@ -16,15 +16,29 @@ const renderLicenseBadge = license => {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-const renderLicenseLink = license => {};
+const renderLicenseLink = license => {
+    switch (license) {
+        case "MIT":
+            return "[MIT License](https://opensource.org/licenses/MIT)";
+        case "Apache 2.0":
+            return "[Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)";
+        case "GPL 3.0":
+            return "[GPL v3 License](https://www.gnu.org/licenses/gpl-3.0)";
+        case "BSD 3":
+            return "[BSD 3 License](https://opensource.org/licenses/BSD-3-Clause)";
+        default:
+            return "";
+    }
+};
 
 // return the license section of README. If there is no license, return empty string
-const renderLicenseSection = (license) => {
+const renderLicenseSection = license => {
     if (license === "None") return "";
+
     return `
 ## License
 
-This project is licensed under the ${license} License — see ${renderLicenseLink} for details.
+This project is covered under the ${license} License — see the ${renderLicenseLink(license)} for details.
 
 `;
 };
