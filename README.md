@@ -2,10 +2,22 @@
 
 ## Description
 
-## Usage
+This README Generator will create a professional README.md file for a given GitHub project. This app was built with Node.js.
+
+To see a sample README file created with this application, refer to (sample-README.md here)
+
+## Installation
 
 You must have Node.js installed on your machine to use this application.
 
-Clone this repository to your local machine, then use ``` npm install ``` from the root directory of this project to get the dependencies. After that, you can run the README Generator simply by using ``` node index.js ```. Follow the on-screen prompts to create your own professional README, which will be generated in the dist folder.
+1. Clone this repository to your local machine.
+2. Navigate to the root directory of this project in your console.
+3. Use ``` npm install ``` to get the dependencies.
+
+## Usage
+
+1. Navigate to the root directory of this project in your console. 
+2. Use ``` node index.js ``` to begin running the README Generator. 
+3. Follow the on-screen prompts to create your own professional README, which will be generated in the dist folder.
 
 (walkthrough video here)
