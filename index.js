@@ -88,10 +88,10 @@ const writeToFile = (fileName, data) => {
 
 // initialize app: prompt user for README content, then write to file.
 const init = () => {
-    // inquirer.prompt(questions)
-    // .then(data => writeToFile("./dist/README.md", data))
-    // .catch(err => console.log(err));
-    writeToFile("./dist/README.md", testData).catch(err => console.log(err));
+    inquirer.prompt(questions)
+    .then(data => writeToFile("./dist/README.md", data))
+    .catch(err => console.log(err));
+    //writeToFile("./dist/README.md", testData).catch(err => console.log(err));
 };
 
 // initialize app
