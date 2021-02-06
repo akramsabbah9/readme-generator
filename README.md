@@ -4,7 +4,7 @@
 
 This README Generator will create a professional README.md file for a given GitHub project. This app was built with Node.js.
 
-To see a sample README file created with this application, refer to (sample-README.md here)
+To see a sample README file created with this application, refer to [sample-README.md]("./sample-README.md").
 
 ## Installation
 
