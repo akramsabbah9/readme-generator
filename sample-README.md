@@ -3,7 +3,7 @@
 
 ## Description
 
-This is a fake GitHub project that I'm currently developing. Support me on P\*treon, join my K\*ckstarter, and buy me a coffee. And yes, I typed out those backslashes in terminal.
+This is a fake GitHub project that I'm currently developing. Support me on P\*treon, join my K\*ckstarter, and buy me a coffee. And yes, I physically typed out those backslashes when I was using the generator.
 
 
 ## Table of Contents

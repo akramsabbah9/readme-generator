@@ -59,7 +59,7 @@ const questions = [
         name: "email",
         message: "Enter your GitHub email address. (Required)",
         validate: input => (input) ? true : console.log("Please enter your email!")
-    },
+    }
 ];
 
 // generate markdown from the data and write it to README file
