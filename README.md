@@ -20,6 +20,6 @@ You must have Node.js installed on your machine to use this application.
 2. Use ``` node index.js ``` to begin running the README Generator. 
 3. Follow the on-screen prompts to create your own professional README, which will be generated in the dist folder.
 
-Walkthrough video:
+## Walkthrough Video:
 
-![readme-generator-tutorial](https://user-images.githubusercontent.com/59624292/107156972-516a3f00-6936-11eb-96ce-db37d53b08d7.mp4)
+[readme-generator-tutorial](https://user-images.githubusercontent.com/59624292/107156972-516a3f00-6936-11eb-96ce-db37d53b08d7.mp4)
